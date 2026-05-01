@@ -146,7 +146,7 @@ Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 [![Telegram](https://img.shields.io/badge/Telegram-@sajal__xd-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.dog/sajal_xd)
 [![GitHub](https://img.shields.io/badge/GitHub-sajal563-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sajal563)
-[![Website](https://img.shields.io/badge/Website-sajal.me-00d4ff?style=for-the-badge&logo=safari&logoColor=white)](https://sajal.me)
+[![Website](https://img.shields.io/badge/Website-sajal.site-00d4ff?style=for-the-badge&logo=safari&logoColor=white)](https://sajal.site)
 
 </div>
 
