@@ -5,12 +5,12 @@
 
 <!-- Dynamic Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=false&width=500&lines=Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%8C%9F;Python+%7C+TypeScript+%7C+Java;Always+Learning%2C+Always+Building+%F0%9F%94%A5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%8C%9F;Python+%7C+TypeScript+%7C+Java;Always+Learning%2C+Always+Building+%F0%9F%94%A5" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Profile Views + Followers + Stars Badges -->
+<!-- Badges -->
 [![Profile Views](https://komarev.com/ghpvc/?username=sajal563&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS)](https://github.com/sajal563)
 [![GitHub followers](https://img.shields.io/github/followers/sajal563?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=FOLLOWERS)](https://github.com/sajal563?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/sajal563?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=STARS)](https://github.com/sajal563)
@@ -26,6 +26,7 @@ const sajal = {
   name        : "Sajal",
   handle      : "@sajal563",
   location    : "India 🇮🇳",
+  website     : "https://sajal.site",
   focus       : ["Backend Systems", "Automation", "Open Source"],
   currentWork : "Building cool things @ sajal563",
   learning    : ["Cloud Architecture", "DevOps", "System Design"],
@@ -74,23 +75,79 @@ const sajal = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=sajal563&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=8b949e&dates=8b949e" alt="Streak Stats"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true"/>
+&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8" alt="Top Languages"/>
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=sajal563&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" alt="Activity Graph"/>
+</div>
+
+<div align="center">
+
+<img width="70%" src="https://streak-stats.demolab.com/?user=sajal563&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=8b949e&dates=8b949e"/>
 
 </div>
 
 ---
 
-## ⏱️ WakaTime Coding Stats
+## 📈 Contribution Activity
 
 <div align="center">
 
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=sajal563&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=6&layout=compact)
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=sajal563&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true&area_color=00d4ff"/>
 
 </div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<!-- After running the GitHub Action below, these will show your live snake -->
+![snake svg](https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![snake svg](https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+</div>
+
+<details>
+<summary>⚙️ Click here — setup required to activate snake animation</summary>
+
+Create the file `.github/workflows/snake.yml` in your **sajal563/sajal563** repo:
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then go to **Actions tab → Run workflow** manually the first time.
+
+</details>
+
+---
+
+## ⏱️ WakaTime Coding Stats
 
 <!--START_SECTION:waka-->
 ```text
@@ -104,23 +161,15 @@ Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 <!--END_SECTION:waka-->
 
+> 💡 To auto-update WakaTime stats, connect your account at [waka.hackclub.com](https://waka.hackclub.com) or [wakatime.com](https://wakatime.com) and add the [WakaTime GitHub Action](https://github.com/marketplace/actions/waka-readme).
+
 ---
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=sajal563&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake-dark.svg)
+![Trophies](https://github-profile-trophy.vercel.app/?username=sajal563&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)
 
 </div>
 
@@ -133,7 +182,7 @@ Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 | 🔭 Working On | 🌱 Learning | 👯 Open To |
 |:---:|:---:|:---:|
 | Personal Projects | Cloud & DevOps | Collaborations |
-| Open Source | System Design | Open Source Contributions |
+| Open Source | System Design | OSS Contributions |
 | Automation Tools | New Frameworks | Interesting Ideas |
 
 </div>
