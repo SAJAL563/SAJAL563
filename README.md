@@ -115,45 +115,6 @@ const sajal = {
 
 </div>
 
-<details>
-<summary>⚙️ One-time snake setup — click to expand</summary>
-
-**Step 1:** In your `sajal563/sajal563` repo, create the file:
-`.github/workflows/snake.yml`
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Step 2:** Go to **Actions tab → Generate Snake Animation → Run workflow**
-
-The `output` branch will be created automatically and the SVG will work.
-
-</details>
-
 ---
 
 ## ⏱️ WakaTime Coding Stats
