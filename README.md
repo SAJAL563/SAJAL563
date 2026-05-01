@@ -10,7 +10,6 @@
 
 <br/>
 
-<!-- Badges -->
 [![Profile Views](https://komarev.com/ghpvc/?username=sajal563&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS)](https://github.com/sajal563)
 [![GitHub followers](https://img.shields.io/github/followers/sajal563?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=FOLLOWERS)](https://github.com/sajal563?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/sajal563?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=STARS)](https://github.com/sajal563)
@@ -75,14 +74,18 @@ const sajal = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true"/>
+<!-- Using githubstats.me — reliable alternative to the rate-limited vercel instance -->
+<img height="180em" src="https://gh.gitprofile.dev/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true"
+  onerror="this.src='https://github-readme-stats.vercel.app/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true'"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8"/>
+<img height="180em" src="https://gh.gitprofile.dev/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8"
+  onerror="this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8'"/>
 
 </div>
 
 <div align="center">
 
+<!-- streak-stats.demolab.com — maintained and stable -->
 <img width="70%" src="https://streak-stats.demolab.com/?user=sajal563&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=8b949e&dates=8b949e"/>
 
 </div>
@@ -93,7 +96,7 @@ const sajal = {
 
 <div align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=sajal563&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true&area_color=00d4ff"/>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=sajal563&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true"/>
 
 </div>
 
@@ -103,16 +106,20 @@ const sajal = {
 
 <div align="center">
 
-<!-- After running the GitHub Action below, these will show your live snake -->
-![snake svg](https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![snake svg](https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+<!-- ⚠️ This will show a broken image until you run the GitHub Action once (see setup below) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/sajal563/sajal563/output/github-contribution-grid-snake.svg"/>
+</picture>
 
 </div>
 
 <details>
-<summary>⚙️ Click here — setup required to activate snake animation</summary>
+<summary>⚙️ One-time snake setup — click to expand</summary>
 
-Create the file `.github/workflows/snake.yml` in your **sajal563/sajal563** repo:
+**Step 1:** In your `sajal563/sajal563` repo, create the file:
+`.github/workflows/snake.yml`
 
 ```yaml
 name: Generate Snake Animation
@@ -141,7 +148,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Then go to **Actions tab → Run workflow** manually the first time.
+**Step 2:** Go to **Actions tab → Generate Snake Animation → Run workflow**
+
+The `output` branch will be created automatically and the SVG will work.
 
 </details>
 
@@ -160,8 +169,6 @@ JavaScript   3 hrs 14 mins   ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.39 %
 ```
 <!--END_SECTION:waka-->
-
-> 💡 To auto-update WakaTime stats, connect your account at [waka.hackclub.com](https://waka.hackclub.com) or [wakatime.com](https://wakatime.com) and add the [WakaTime GitHub Action](https://github.com/marketplace/actions/waka-readme).
 
 ---
 
