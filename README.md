@@ -75,10 +75,10 @@ const sajal = {
 <div align="center">
 
 <!-- Using githubstats.me — reliable alternative to the rate-limited vercel instance -->
-<img height="180em" src="https://gh.gitprofile.dev/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true"
+<img height="180em" src="https://github-readme-stats-krishna-coral.vercel.app/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true"
   onerror="this.src='https://github-readme-stats.vercel.app/api?username=sajal563&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=8b949e&rank_icon=github&count_private=true'"/>
 &nbsp;
-<img height="180em" src="https://gh.gitprofile.dev/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8"
+<img height="180em" src="https://github-readme-stats-krishna-coral.vercel.app/api?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8"
   onerror="this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=sajal563&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e&langs_count=8'"/>
 
 </div>
@@ -124,6 +124,16 @@ Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 ---
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy-krishna.vercel.app/?username=sajal563&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)
+
+</div>
+
+---
+
 ## 🎯 Current Focus
 
 <div align="center">
@@ -144,7 +154,7 @@ Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 [![Telegram](https://img.shields.io/badge/Telegram-@sajal__xd-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.dog/sajal_xd)
 [![GitHub](https://img.shields.io/badge/GitHub-sajal563-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sajal563)
-[![Website](https://img.shields.io/badge/Website-sajal.site-00d4ff?style=for-the-badge&logo=safari&logoColor=white)](https://sajal.site)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sajal.site-00d4ff?style=for-the-badge&logo=safari&logoColor=white)](https://sajal.site)
 
 </div>
 
