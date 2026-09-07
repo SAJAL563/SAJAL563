@@ -92,15 +92,6 @@ const sajal = {
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=sajal563&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true"/>
-
-</div>
-
----
 
 ## 🐍 Contribution Snake
 
@@ -130,16 +121,6 @@ JavaScript   3 hrs 14 mins   ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 Other        2 hrs 52 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.39 %
 ```
 <!--END_SECTION:waka-->
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=sajal563&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)
-
-</div>
 
 ---
 
